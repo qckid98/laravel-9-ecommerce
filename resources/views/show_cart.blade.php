@@ -49,7 +49,7 @@
                             @endforeach
                         </div>
                         <div class="d-flex flex-column justify-content-end align-items-end">
-                            <p>Total: Rp {{ $total_price }}</p>
+                            <p>Total: Rp{{ $total_price }}</p>
                             <form action="{{ route('checkout') }}" method="post">
                                 @csrf
                                 <button type="submit" class="btn btn-primary"
