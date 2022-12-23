@@ -10,7 +10,7 @@
                     <div class="card-group m-auto">
                         @foreach ($products as $product)
                             <div class="card m-3" style="width: 18rem;">
-                                <img class="card-img-top" src="{{ url('storage/' . $product->image) }}"
+                                <img class="card-img-top" style="height: 18rem;" src="{{ url('storage/' . $product->image) }}"
                                     alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text">{{ $product->name }}</p>
