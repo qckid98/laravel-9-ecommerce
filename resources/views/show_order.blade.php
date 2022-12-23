@@ -28,7 +28,7 @@
                             @endphp
                         @endforeach
                         <hr>
-                        <p>Total: Rp{{ $total_price }}</p>
+                        <p>Total: Rp {{ $total_price }}</p>
                         <hr>
 
                         @if ($order->is_paid == false && $order->payment_receipt == null && !Auth::user()->is_admin)
